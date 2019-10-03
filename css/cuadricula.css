@@ -1,0 +1,91 @@
+.Cuadro
+{
+    height: 90px;
+    width: 90px;
+    border: 10px solid blue;
+    display: inline-block;
+    margin-left: 10px;
+}
+:first-of-type
+{
+color: red;
+}
+/*.Cuadro:last-child
+    {
+        background-color: red;
+    }
+    /*.Cuadro:nth-of-type(odd)
+    {
+        background-color: red;
+    }*/
+    /*.Cuadro:first-of-type
+    {
+        background-color: red;
+    }
+    .Cuadro:last-of-type
+    {
+background-color: red;
+    }
+    .Cuadro:nth-of-type(8)
+    {
+        background-color: red;
+    }
+    .Cuadro:nth-of-type(33)
+    {
+        background-color: red;
+    }*/
+    /*.Cuadro:nth-of-type(8n+8)
+    {
+        background-color: red;
+    }*/
+    /*
+.Cuadro:nth-of-type(-n+8)
+{
+	background-color: green;
+}*/
+
+/*la fila de abajo
+.Cuadro:nth-of-type(n+33)
+{
+	background-color: green;
+}*/
+
+/*la fila vertical izquierda
+.Cuadro:nth-child(1),.Cuadro:nth-child(10),.Cuadro:nth-child(19),.Cuadro:nth-child(28),.Cuadro:nth-child(37)
+{
+	background-color: green;
+}*/
+
+/*la fila vertical derecha
+.Cuadro:nth-child(8),.Cuadro:nth-child(17),.Cuadro:nth-child(26),.Cuadro:nth-child(35),.Cuadro:nth-child(44)
+{
+	background-color: green;
+}*/
+
+
+
+
+/*cuadrado
+.Cuadro:nth-child(1),.Cuadro:nth-child(2),.Cuadro:nth-child(3),.Cuadro:nth-child(4),.Cuadro:nth-child(10),.Cuadro:nth-child(13),.Cuadro:nth-child(19),.Cuadro:nth-child(22),.Cuadro:nth-child(28),.Cuadro:nth-child(29),.Cuadro:nth-child(30),.Cuadro:nth-child(31)
+{
+	background-color: green;
+}*/
+
+/*triángulo
+.Cuadro:nth-child(1),.Cuadro:nth-child(2),.Cuadro:nth-child(3),.Cuadro:nth-child(4),.Cuadro:nth-child(12),.Cuadro:nth-child(20),.Cuadro:nth-child(28),.Cuadro:nth-child(10),.Cuadro:nth-child(19)
+{
+    background-color:green;
+}*/
+
+/*zeta
+.Cuadro:nth-of-type(-n+4),.Cuadro:nth-child(28),.Cuadro:nth-child(29),.Cuadro:nth-child(30),.Cuadro:nth-child(31),.Cuadro:nth-child(12),.Cuadro:nth-child(20)
+{
+	background-color: green;
+}*/
+
+/*
+forma extraña
+.Cuadro:nth-of-type(-n+5),.Cuadro:nth-child(37),.Cuadro:nth-child(38),.Cuadro:nth-child(39),.Cuadro:nth-child(40),.Cuadro:nth-child(41),.Cuadro:nth-child(13),.Cuadro:nth-child(21),.Cuadro:nth-child(29),.Cuadro:nth-child(19),.Cuadro:nth-child(10),.Cuadro:nth-child(28),.Cuadro:nth-child(14),.Cuadro:nth-child(23),.Cuadro:nth-child(32),.Cuadro:nth-child(31),.Cuadro:nth-child(11)
+{
+	background-color: green;
+}
