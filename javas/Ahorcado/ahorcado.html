@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
+    <link rel="stylesheet" href="/javas/css/ahorcado.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ahorcado</title>
-    <SCRIPT LANGUAGE=JavaScript>
+    <script LANGUAGE=JavaScript>
         var hombre = new Array("___\n", "   |\n", "   O\n", "  /", "|", "\\\n", "  /", " \\\n", "___")
         var palabra
         var libreriaPalabras = new Array("m u l t i m e d i a", "i n t e r n a u t a", "s e r v i d o r", "p r o t o c o l o", "c o r t a f u e g o s",
@@ -136,21 +137,21 @@
              alert("Has muerto !\n La palabra era: " + solucion)
            }
         }
-        </SCRIPT>
-        </HEAD>
-        <BODY>
-        <H2>Juego del ahorcado</H2>
-        <FORM NAME=visor>
-           <CENTER>
-           <TABLE width=547>
-           <TR>
-              <TD colspan=3 width=150 ALIGN=center><textarea name=displayHombre cols=15 rows=6></textarea>
-              <TD colspan=3 WIDTH=150 ALIGN=center><textarea name=displayLetras cols=15 rows=6></textarea>
-              <TD width=200>
-           <TR>
-              <TD colspan=6 width=300 ALIGN=center><INPUT NAME=displayPalabra SIZE=42>
-              <TD ALIGN=center>&nbsp;
-           <TR>
+        </script>
+        </head>
+        <body id="Fondo">
+        <h2>Juego del ahorcado</H2>
+        <form NAME=visor>
+           <center>
+           <table width=547>
+           <tr>
+              <td colspan=3 width=150 ALIGN=center><textarea name=displayHombre cols=15 rows=6></textarea>
+              <td colspan=3 WIDTH=150 ALIGN=center><textarea name=displayLetras cols=15 rows=6></textarea>
+              <td width=200>
+           <tr>
+              <td colspan=6 width=300 ALIGN=center><INPUT NAME=displayPalabra SIZE=42>
+              <td ALIGN=center>&nbsp;
+           <tr>
               <td align=center width=50><input type=button name=botA value=" A " onClick="Juega(this.form, 'a')">
               <td align=center width=50><input type=button name=botB value=" B " onClick="Juega(this.form, 'b')">
               <td align=center width=50><input type=button name=botC value=" C " onClick="Juega(this.form, 'c')">
@@ -188,16 +189,11 @@
               <td align=center><input type=button name=botZ value=" Z " onClick="Juega(this.form, 'z')">
               <td colspan=3 align=center><input type=button name=Inicia value="  Juego nuevo   " onClick="IniciaJuego(this.form)">
               <td align=center><input type=button value=Limpiar name=B1 onClick="this.form.ganadas.value='0'; this.form.perdidas.value='0'">
-          </TABLE>
-          </CENTER>
-        </FORM>
-        
+              </table>
+            </center>
+        </form>
         <hr>
         <center>
-        <h3>
-        [<a href="/javas/Ahorcado/ahorcado.html">Volver</a>]
-        </h3>
         </center>
-        
  </body>
 </html>
