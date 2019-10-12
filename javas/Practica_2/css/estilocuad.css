@@ -1,0 +1,8 @@
+.Cuadro1,.Cuadro2,.Cuadro3,.Cuadro4,.Cuadro5,.Cuadro6,.Cuadro7,.Cuadro8
+{
+    height: 55px;
+    width: 55px;
+    border: 10px solid blue;
+    display: inline-block;
+    margin-left: 10px;
+} 

@@ -6,7 +6,7 @@
     display: inline-block;
     margin-left: 10px;
 }
-:first-of-type
+/*:first-of-type
 {
 color: red;
 }

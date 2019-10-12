@@ -1,0 +1,38 @@
+$(document).ready(function()
+{
+    $('#botonarriba').click(function()
+    {
+        $('div').css('background','white');
+        $('.Cuadro1').css('background','red');
+    });
+    $('#botonabajo').click(function()
+    {
+        $('div').css('background','white');
+        $('.Cuadro8').css('background','red');
+    })
+    $('#botonizq').click(function()
+    {
+        $('div').css('background','white');
+        $('.Cuadro1:first,.Cuadro2:first,.Cuadro3:first,.Cuadro4:first,.Cuadro5:first,.Cuadro6:first,.Cuadro7:first,.Cuadro8:first').css('background','red');
+    })
+    $('#botondir').click(function()
+    {
+        $('div').css('background','white');
+        $('.Cuadro1:last,.Cuadro2:last,.Cuadro3:last,.Cuadro4:last,.Cuadro5:last,.Cuadro6:last,.Cuadro7:last,.Cuadro8:last').css('background','red');
+    })
+    $('#marco').click(function()
+    {
+        $('div').css('background','white');
+    $('.Cuadro2:first,.Cuadro3:first,.Cuadro4:first,.Cuadro5:first,.Cuadro6:first,.Cuadro7:first,.Cuadro1:last,.Cuadro2:last,.Cuadro3:last,.Cuadro4:last,.Cuadro5:last,.Cuadro6:last,.Cuadro7:last,.Cuadro1,.Cuadro8').css('background','red');
+    })
+    $('#cruz').click(function()
+    {
+        $('div').css('background','white');
+        $('.Cuadro3,.Cuadro4,#cuadro4,#cuadro5,#cuadro12,#cuadro13,#cuadro36,#cuadro37,#cuadro44,#cuadro45',).css('background','red');
+    })
+    $('#zeta').click(function()
+    {
+        $('div').css('background','white');
+        $('.Cuadro1,.Cuadro8,#cuadro15,#cuadro22,#cuadro29,#cuadro36,#cuadro43,#cuadro50').css('background','red');
+    })
+});
